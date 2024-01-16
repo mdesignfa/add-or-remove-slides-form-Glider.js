@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add or remove</title>
+
+    <link rel="stylesheet" href="./glider/core.css">
+    <link rel="stylesheet" href="./glider/theme.css">
+
+    <style>
+        .glide {
+            margin: 45px 0px;
+        }
+        .glide__slide {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            background-color: #b970f030;
+            border-radius: 10px;
+            border: 1px solid red;
+            min-height: 250px;
+        }
+        .new-slide {
+            background-color: rgb(255, 134, 134);
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Note: Newly added slides are RED ones!</h2>
+
+    <hr>
+
+    <p>Add 1 slide:</p>
+    <!--First Glider-->
+    <div class="glide first-glider">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">0</li>
+            <li class="glide__slide">1</li>
+            <li class="glide__slide">2</li>
+          </ul>
+        </div>
+    </div>
+    <!--Endof First Glider-->
+
+    <hr>
+
+    <p>Add 3 slides:</p>
+    <!--Second Glider-->
+    <div class="glide second-glider">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">0</li>
+            <li class="glide__slide">1</li>
+            <li class="glide__slide">3</li>
+            <li class="glide__slide">4</li>
+            <li class="glide__slide">5</li>
+          </ul>
+        </div>
+    </div>
+    <!--Endof Second Glider-->
+
+    <hr>
+
+    <p>remove 4 slides</p>
+    <!--Third Glider-->
+    <div class="glide third-glider">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">0</li>
+            <li class="glide__slide">1</li>
+            <li class="glide__slide">2</li>
+            <li class="glide__slide">3</li>
+            <li class="glide__slide">4</li>
+            <li class="glide__slide">5</li>
+            <li class="glide__slide">6</li>
+            <li class="glide__slide">7</li>
+            <li class="glide__slide">8</li>
+            <li class="glide__slide">9</li>
+          </ul>
+        </div>
+    </div>
+    <!--Endof Third Glider-->
+
+    <h2>Hope you Enjoy!</h2>
+
+    <a href="https://github.com/mdesignfa/" taget="_blank">👉 My Github (MDZ)</a>
+    
+
+<script type="text/javascript" src="./glider/glider.js"></script>
+<script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
